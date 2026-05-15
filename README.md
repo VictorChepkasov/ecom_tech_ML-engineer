@@ -62,6 +62,20 @@ docker compose exec app pytest
 
 ---
 
+# SQL-схема
+
+SQL-скрипт создания таблицы находится в:
+
+```text
+sql/init.sql
+```
+
+Миграции Alembic находятся в:
+
+migrations/
+
+---
+
 # Технологии
 
 - FastAPI
