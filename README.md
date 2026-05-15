@@ -17,6 +17,7 @@ cp .env.example .env
 ```
 
 3. Сбор контейнера  
+
 Для Linux Fedora:
 ```bash
 docker build --network=host -t ecom_tech_ml-engineer-app .
