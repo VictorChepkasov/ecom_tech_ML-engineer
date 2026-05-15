@@ -1,5 +1,5 @@
 # ecom_tech_ML-engineer
-Тестовое задание в Ecom.tech на позицию ML-engineer. REST API сервис для загрузки и анализа успеваемости студентов.
+Тестовое задание в Ecom.tech на позицию ML-engineer - REST API сервис для загрузки и анализа успеваемости студентов.
 
 ---
 
@@ -53,6 +53,11 @@ docker compose exec app pytest
 - Docker 
 - Alembic migrations
 - Pytest tests
+
+## Особенности реализации
+- Перед загрузкой новых данных таблица очищается
+- ORM не используется
+- Используются транзакции PostgreSQL
 
 ---
 
