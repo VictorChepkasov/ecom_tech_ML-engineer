@@ -72,8 +72,9 @@ sql/init.sql
 
 Миграции Alembic находятся в:
 
+```text
 migrations/
-
+```
 ---
 
 # Технологии
