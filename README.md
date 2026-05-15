@@ -1,5 +1,5 @@
 # ecom_tech_ML-engineer
-Тестовое задание в Ecom.tech на позицию ML-engineer. REST API сервис для загрузки и анализа успеваемости студентов. Проект реализован на FastAPI с использованием PostgreSQL и raw SQL-запросов без ORM.
+Тестовое задание в Ecom.tech на позицию ML-engineer. REST API сервис для загрузки и анализа успеваемости студентов.
 
 ---
 
@@ -16,14 +16,14 @@ cd student-grades-api
 cp .env.example .env
 ```
 
-3. Сбор контейнера
+3. Сбор контейнера  
 Для Linux Fedora:
 ```bash
 docker build --network=host -t ecom_tech_ml-engineer-app .
 docker compose up
 ```
 
-Для Windows 
+Для Windows:
 ```bash
 docker compose build
 ```
@@ -53,12 +53,6 @@ docker compose exec app pytest
 - Docker 
 - Alembic migrations
 - Pytest tests
-
-## Особенности реализации
-- Перед загрузкой новых данных таблица очищается
-- Используются только raw SQL-запросы
-- ORM не используется
-- Используются транзакции PostgreSQL
 
 ---
 
